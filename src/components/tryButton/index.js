@@ -7,7 +7,7 @@ import './styles.scss';
 // == Composant
 const TryButton = () => (
   <div className="trybutton">
-    <button> Demandez un essai gratuit </button>
+    <button className="trybutton__button"> Demandez un essai </button>
   </div>
 );
 

@@ -1,0 +1,14 @@
+.header {
+  margin: 2em 0;
+
+  &__principal { 
+    display: flex;
+    justify-content: space-between;
+  }
+
+  span {
+    margin: 2em;
+  }
+
+ 
+}

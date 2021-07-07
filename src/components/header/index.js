@@ -13,8 +13,10 @@ const Header = () => (
   <div className="header">
     <div className="header__principal">
       <Logo className="header__logo" />
-      <TryButton className="header__button" />
-      <p className="header__phone"> (+352) 621 272 749 </p>
+      <span>
+        <TryButton className="header__button" />
+        <p className="header__phone"> (+352) 621 272 749 </p>
+      </span>
     </div>
     <Menu />
   </div>
