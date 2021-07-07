@@ -5,9 +5,9 @@ import React from 'react';
 import './styles.scss';
 import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
-import slide1 from '../../../public/slide1.png';
-import slide2 from '../../../public/slide2.png';
-import slide3 from '../../../public/slide3.png';
+import slide1 from '../../../../public/slide1.png';
+import slide2 from '../../../../public/slide2.png';
+import slide3 from '../../../../public/slide3.png';
 
 // == Composant
 const HomeSlide = () => (

@@ -1,5 +1,7 @@
 // == Import npm
 import React from 'react';
+
+import { NavLink } from 'react-router-dom';
 // import PropTypes from 'prop-types';
 // == Import
 import './styles.scss';
@@ -10,8 +12,18 @@ const Menu = () => (
   <div className="menu">
     <nav>
       <ul>
-        <li> <a href="#"> HOME </a></li>
-        <li> <a href="#"> Logiciel de caisse </a></li>
+        <li>
+          <NavLink
+            to="/"
+          > HOME
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="/logiciel-de-caisse"
+          > Logiciel de caisse
+          </NavLink>
+        </li>
         <li> <a href="#"> Matériel de caisse </a></li>
         <li> <a href="#"> Contact </a></li>
       </ul>
